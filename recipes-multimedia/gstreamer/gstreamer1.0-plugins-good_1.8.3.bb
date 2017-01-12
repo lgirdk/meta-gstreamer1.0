@@ -9,6 +9,7 @@ SRC_URI = " \
     file://0001-gstrtpmp4gpay-set-dafault-value-for-MPEG4-without-co.patch \
     file://avoid-including-sys-poll.h-directly.patch \
     file://ensure-valid-sentinel-for-gst_structure_get.patch \
+    file://qtdemux-free-seqh-after-calling-qtdemux_parse_svq3_s.patch \
 "
 
 SRC_URI[md5sum] = "473ebb1f15c67de99ddb6e4d027c0876"
